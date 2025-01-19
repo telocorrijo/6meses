@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>6 meses juntos💙</title>
+</head>
+<body>
+    <style>
+        @media (max-width: 1080px) and (max-height: 2400px) {
+    body {
+        overflow: hidden;
+        height: 100vh; 
+        width: 100vw;
+        background-image: url(estrellas);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        margin: 0;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    p {
+        margin: 40px;
+    }
+    #titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: white;
+    }
+    #pre1 {
+        display: flex;
+        justify-content: center;
+        color: white;
+        background: linear-gradient(45deg, rgb(124, 35, 233),  rgb(74, 20, 140), rgb(124, 35, 233)); 
+        box-shadow: rgb(0, 247, 255) 10px 10px 10px 10px;
+        border: white 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        margin: 0px 45px 0px 45px;
+    }
+    #pre1-boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 254px;      
+        color: white;
+        background-color: rgb(74, 20, 140);
+        border: black 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        width: 300px;
+        margin: 0px 390px 0px 390px;
+    }
+    .confetti {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: randomColor();
+        animation: fall linear;
+    }
+    @keyframes fall {
+        0% {
+            transform: translateY(-100px) rotate(0deg);
+        }
+        100% {
+            transform: translateY(100vh) rotate(360deg);
+        }
+    }
+    #con {
+        display: none;
+        color: white;
+        background: linear-gradient(45deg, blue,  rgb(74, 20, 140), blue);
+        box-shadow: black 10px 10px 10px 10px;
+        border: black 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+        position: absolute;
+        top: 275px;
+        margin: 0px 475px 0px 475px;
+    }
+    #con:hover {
+        color: white;
+        background: linear-gradient(45deg, rgb(74, 20, 140), blue, rgb(74, 20, 140));
+        box-shadow: black 10px 10px 10px 10px;
+        border: black 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 20px;
+    }
+    #texto-disculpas {
+        color: white;
+        display: none;
+        font-size: 42px;
+    }
+    #texto {
+        color: white;
+        display: none;
+        font-size: 42px;
+    }
+    #texto1 {
+        display: none;
+        color: white;
+        font-size: 42px;
+    }
+    #texto2 {
+        display: none;
+        color: white;
+        font-size: 42px;
+    }
+    #texto3 {
+        display: none;
+        color: white;
+        font-size: 42px;
+    }
+    #boton-next {
+        color: rgb(0, 0, 0);
+        background-color: blue;
+        padding: 20px;
+        border-radius: 20px;
+        border: black 2px solid;
+        width: 130px;
+        left: 455px;
+        position: absolute;
+        font-size: 24px;
+    }
+    #boton-next1 {
+        color: rgb(0, 0, 0);
+        background-color: blue;
+        padding: 20px;
+        border-radius: 20px;
+        border: black 2px solid;
+        width: 130px;
+        left: 455px;
+        position: absolute;
+        font-size: 24px;
+    }
+    #boton-next2 {
+        color: rgb(0, 0, 0);
+        background-color: blue;
+        padding: 20px;
+        border-radius: 20px;
+        border: black 2px solid;
+        width: 130px;
+        left: 455px;
+        position: absolute;
+        font-size: 24px;
+    }
+    #boton-next3 {
+        color: rgb(0, 0, 0);
+        background-color: blue;
+        padding: 20px;
+        border-radius: 20px;
+        border: black 2px solid;
+        width: 130px;
+        left: 455px;
+        position: absolute;
+        font-size: 24px;
+    }
+    
+}
+    </style>
+    <h1 id="titulo">6 meses juntos💙</h1>
+
+    <section id="sec1">
+        
+        <p id="pre1">¿Quieres comenzar?</p>
+         
+    <div id="sec1-display-buttons">
+        <button id="pre1-boton">Siiiii🚀</button>
+    </div>
+        
+    </section>
+
+    <button id="con">continuar</button>
+
+    <section id="texto-disculpas">
+        <p>
+            Tal vez esto lo estes leyendo conmigo o tal vez lo estes leyendo sin mi solo quería decirte que lo siento por lo del 17/1/2025 a las 9:52 o bueno no exactamente ahi si no dias atrás y también lo siento de verdad por no decirte perdoname por hacerte senti engañada por hacerte sentir que no confio y perdoname por fallarte.<br><br>
+
+            Prometo que te contare todo no quiero dañar lo nuestro yo te amo mucho y de verdad gracias por estar conmigo  gracias por continuar diciendome las cosas de verdad lo agradezco mucho esto preferiría decirlo en persona.<br><br>
+
+            Gracias amor estoy muy agradecido contigo por todo y de verdad te amo demasiado.<br><br>
+
+            Prometo no romper la confianza que me tienes.<br>
+            Prometo decirte las cosas que haces mal.<br>
+            Prometo decirte todo todo te diré todo.<br>
+        </p>
+
+        <button id="boton-next">Next
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                height="24px" 
+                viewBox="0 -960 960 960" 
+                width="24px"
+                fill="black">
+                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+            </svg>
+        </button>
+    </section>
+ 
+
+    <section id="texto">
+        <p>
+         Hoy cumplimos 6 meses juntos💙. Son los mejores meses de mi vida. ¿Por qué? Por que tu estás en mi vida ¿Y qué pasa? pues yo te amo tu me amas nos amomos y vamos a estar toda la vida juntos y casados y seremos un familia muy amorosa y estable ¿Por que? por que nos amaomos y tenemos una muy buena comunicación y conexión que nos hace que seamos imanes que se atraen el uno al otro y por eso somos inseparables por que yo no se que haría sin ti yo sin ti no puedo vivir *Se desmaya* *revive* *la besa y le muerde un labio*. *Procede y le dice unas cosas very importantes* *termina* *Procede y le deja seguir leyendo* *pero antes* *la besa y ahora si la deja seguir*. te amo mi reina y te quería decir que es hora de que le des a siguiente o algún boton que diga algo así la verdad todaviá ese boton no está programado jeje. I love you my bby.
+        </p>
+
+            <button id="boton-next1">Next
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    height="24px" 
+                    viewBox="0 -960 960 960" 
+                    width="24px"
+                    fill="black">
+                    <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+                </svg>
+            </button>
+
+    </section>
+
+    <section id="texto1">
+        <p>
+            Yo te amo tanto que por ti daría mi vida de verdad no sabes lo que daría por verte feliz hoy y siempre y de verdad me da mucha felicidad saber que ya estás mejor con la ansiedad y depresión me da mucha felicidad haber podido ayudarte y todavía poder ayudarte y pues ser tu novio y que me ames tanto yo se que a veces me pongo terco y agradezco que siempre me ayudas y siempre estás ahí para mi tu eres mi lugar seguro donde yo puedo contarte todo y no me juzgas solo me escuchas y me ayudas y de verdad soy el más afortunado de tenerte tu eres maravillosa.
+        </p>
+
+        <button id="boton-next2">Next
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                height="24px" 
+                viewBox="0 -960 960 960" 
+                width="24px"
+                fill="black">
+                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+            </svg>
+        </button>
+
+    </section>
+
+    <section id="texto2">
+        <p>
+            quiero que sepas que tu eres muy hermosa siempre cuando apenas te acabas de levantar cuando duermes de solo imaginarte ya se que te ves hermosa y me gustaría mucho verte dormir mientras te acaricio y te digo que te amo.
+            cuando estás en pijama eres hermosa no sabes cuanto daría para verte así eres hermosa siempre de verdad siempre lo digo y pienso y creo con toda sinceridad.
+            toda tu toda completita eres hermosa lindamente preciosa de cabeza a pies tu pelo es hermoso me encanta, tus ojos me derriten me encanta mirarte los ojos me hipnotizas, tus cejas también son hermosas me encantan, tus pestañas me encantan sin o con pestañina son hermosas de verdad, tu nariz también me encanta, tus labios me dejan sin palabras podría besarte todo un día y siempre voy a querer otro beso por que besas muy rico y te amo, tus orejitas también son muy hermosas las amo de verdad, tu carita completa la amo es hermosa, también tu cuello me encanta darle besos yy una que otra mordidita jejjej, tu cintura ay me encanta es que no se solo me encanta, y obvio no se me olvidan tus amigas nonono tu dices que no tienes pero es que tienes artas me encantas mucho y muchas gracias por dejarme tocar lo agradezco demasiado mucho y siempre lo agraqdecere valoro mucho eso, tus brazos también me encantan mucho, tus manitos también son hermosos, tus deditos y tus uñas son hermosos de verdad tus uñas son hermosas cortas o largas de verdad, tus amigas de abajo también me encantan de verdad me encanta darte abrazos y abrazos tocando tus amigas de abajo tu dices que no tienes pero tienes muchichimas de verdad y de verdad muchas gracias por dejarme tocar tu hermoso y precioso cuerpo lo valoro mucho demasiado, está nunca lo habia dicho jejjej pero tu amiga tambiénme encanta y de verdad muchas gracias por dejarme tocar de verdad lo valoro mucho demasiado, tus piernas ay tus piernas me encantan también jejje y a veces me dan ganas de pellizcarlas😥 que malo yo y muchas gracias por dejarme y no lo hare duro, tus pies me encantan aunque solo lo he visto con medias me encantan son hermosos, todo tu cuerpo me encanta todo todo todito y recuerda que ers hermosa y digo la verdad.
+        </p>
+
+        <button id="boton-next3">Next
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                height="24px" 
+                viewBox="0 -960 960 960" 
+                width="24px"
+                fill="black">
+                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
+            </svg>
+        </button>
+
+    </section>
+
+    <section id="texto3">
+        
+        <p>
+            Ya he terminado espero te guste mucho y hay dos cosas que quería poner en está página web también pero no pude quería poner un carrusel de fotos juntos y de ti y en cada una poner tipo un escrito pero intente de mil maneras y no pude hacer que cambiara la imagen al carle click🥺.<br>
+            Y lo otro que quería poner era no se si en algún lugar decía te amo tu le dieras click y apareciera un mini escrito pero no pude hacerlo.<br>
+            Lo siento🥺.I love you my bby💙.
+        </p>
+
+    </section>
+
+</body>
+    <script>
+        var button = document.getElementById('pre1-boton');
+
+button.addEventListener('click', createConfetti);
+
+function createConfetti() {
+     
+    document.getElementById("sec1-display-buttons").style.display = "none";
+    document.getElementById("pre1").innerHTML = "Shiiiii, Si yo también, me muero *se muere en tus brazos*. Yo también te amo mi niña linda hermosa preciosa de mi corazón y de todo yo.*la besa apasionadamente*.";    
+    document.getElementById("con").style.display = "block"
+
+    for (let i = 0; i < 250; i++) {
+        var confetti = document.createElement('div');
+        confetti.classList.add('confetti');
+        document.body.appendChild(confetti);
+
+        var size = Math.random() * 10 + 5; 
+        var xPosition = Math.random() * window.innerWidth; 
+        var fallTime = Math.random() * 3 + 2; 
+
+        confetti.style.width = `${size}px`;
+        confetti.style.height = `${size}px`;
+        confetti.style.backgroundColor = randomColor();
+        confetti.style.position = "absolute";
+        confetti.style.left = `${xPosition}px`;
+        confetti.style.top = `-${Math.random() * 250}px`;
+        confetti.style.animation = `fall ${fallTime}s linear`;
+
+      
+        confetti.addEventListener('animationend', () => {
+            confetti.remove();
+        });
+    }
+}
+
+function randomColor() {
+    const colors = ['#FF5733', '#FFC300', '#DAF7A6', '#FF33F0', '#33FFF4'];
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+
+document.getElementById("con").addEventListener('click' , () => {
+    document.getElementById("sec1").style.display = "none";
+    document.getElementById("con").style.display = "none";
+    document.getElementById("titulo").style.display = "none";
+    document.getElementById("texto-disculpas").style.display = "block";
+});
+document.getElementById("boton-next").addEventListener('click' , () => {
+    document.getElementById("texto").style.display = "block";
+    document.getElementById("texto-disculpas").style.display = "none"
+});
+document.getElementById("boton-next1").addEventListener('click' , () => {
+    document.getElementById("texto1").style.display = "block";
+    document.getElementById("texto").style.display = "none"
+});
+document.getElementById("boton-next2").addEventListener('click' , () => {
+    document.getElementById("texto2").style.display = "block";
+    document.getElementById("texto1").style.display = "none"
+});
+document.getElementById("boton-next3").addEventListener('click' , () => {
+    document.getElementById("texto2").style.display = "none";
+    document.getElementById("texto3").style.display = "block";
+});
+    </script>
+</html>
